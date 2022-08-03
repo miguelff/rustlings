@@ -13,7 +13,7 @@ fn array_and_vec() -> ([i32; 4], Vec<i32>) {
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    use super::array_and_vec;
 
     #[test]
     fn test_array_and_vec_similarity() {
